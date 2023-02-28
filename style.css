@@ -1,0 +1,165 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: white;
+    min-width: 700px;
+}
+
+.top-of-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.middle-of-page {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border: 1px solid rgb(232, 232, 232);
+    margin: 65px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.sign-in {
+    position: relative;
+    bottom: 30px;
+}
+
+.form {
+    font-size: 12px;
+    position: relative;
+    bottom: 40px;
+}
+
+input {
+    width: 450px;
+    height: 15px;
+    border: solid rbg(173,177,185);
+    border-width: 2px;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+::placeholder {
+    color: rgb(173, 177, 185);
+    opacity: 10;
+}
+
+.password {
+    padding-left: 40px;
+}
+
+.forgot {
+    font-display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.p {
+    float: right;
+    color: blue;
+    font-size: 12px;
+    margin: 2px;
+}
+
+.continue {
+    background-color: orange;
+    width: 465px;
+    border: 2px solid lightgrey;
+    height: 30px;
+    font-size: 12px;
+}
+
+.need-help {
+    float: left;
+    font-size: 12px;
+    color: blue;
+}
+
+
+.bottom-of-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.new-to-amazon {
+    float: none;
+    color: gray;
+    font-size: 14px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.new-to-amazon:before, .new-to-amazon:after {
+    background-color: gray;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.new-to-amazon:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.new-to-amazon:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.create-your-amazon-account {
+    background-color: lightgrey;
+    border: 2px solid rgb(173, 177, 185);
+    width: 480px;
+    margin-top: 15px;
+    height: 25px;
+    font-size: 12px;
+}
+
+.final {
+    border-top: 2px solid rgb(173, 177, 185);
+    border-top-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+ul {
+    list-style: none;
+    margin-top: 35px;
+    display: flex;
+}
+.footheader {
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.copy {
+    color: black;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+footer {
+    text-align: center;
+}
