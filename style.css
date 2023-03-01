@@ -56,7 +56,7 @@ input {
 }
 
 .password {
-    padding-left: 40px;
+    padding-left: 0px;
 }
 
 .forgot {
@@ -74,16 +74,16 @@ input {
 }
 
 .continue {
-    background-color: orange;
+    background-color: rgb(224, 149, 11);
     width: 465px;
     border: 2px solid lightgrey;
     height: 30px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .need-help {
     float: left;
-    font-size: 12px;
+    font-size: 16px;
     color: blue;
 }
 
@@ -124,20 +124,21 @@ input {
 }
 
 .create-your-amazon-account {
-    background-color: lightgrey;
+    background-color: rgb(192, 190, 190);
     border: 2px solid rgb(173, 177, 185);
     width: 480px;
     margin-top: 15px;
     height: 25px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .final {
-    border-top: 2px solid rgb(173, 177, 185);
+    border-top: 1px solid rgb(173, 177, 185);
     border-top-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 }
 
